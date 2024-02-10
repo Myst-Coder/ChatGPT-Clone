@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.parent1{
+    cursor: pointer;
+    width: 22vw;
+    height: 100%;
+    background-color: rgba(224, 210, 210, 0.25);
+    padding: 5px;
+    font-family: Söhne, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.parent1 .box_1{
+    background-color: #d7dbe0;
+    height: 6vh;
+    margin: 0.75rem;
+    border-radius: 10px;
+
+}
+.box_1{
+    position: sticky;
+}
+.box_1 svg{
+    margin: 0.5em;
+    border-radius: 50%;
+    
+}
+.box_1 h4{
+    margin: -2rem;
+    padding-left: 4.5rem;
+    font-weight: normal;
+}
+.icon-md{
+   padding-top: 0.25rem;
+    padding-left: 13rem;
+}
+
+.h3{
+    font-weight: 600;
+    color: #9b9b9b;
+    font-size:0.9rem;
+    line-height: 1rem;
+    padding: 1.6rem 0.5rem 0.5rem 0.5rem;
+    margin: .75rem;
+}
+
+.a1{
+    display: flex;
+    font-size:0.9rem;
+    margin: 0.75rem;
+    padding: 0.5rem;
+    align-items: center;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.text1{
+    padding-top: -1rem;
+    margin-top: -0.5rem;
+}
+.upgrade{
+    position: sticky;
+    /* padding-bottom: 100%; */
+    width: 20vw;
+    /* margin-bottom: 0; */
+    /* height: 100%; */
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+.plan{
+    width: 100%;
+    /* height: 23vh; */
+    margin: 0.5rem;
+    border-radius: 10px;
+}
+
+.svg2{
+    margin-left: 0.2rem;
+    margin-top: 1.3rem;
+    border-radius: 50%;
+}
+
+/* .profile{
+    margin-left: -1.8rem;
+    margin-bottom: 2rem;
+} */
+
+.flex{
+    display: flex;
+    margin-left: 2rem;
+    margin-top: -2.2rem; 
+}
+.flex-col{
+    flex-direction: column;
+}
+
+.text4{
+    color: #9b9b9b;
+    font-size: .75rem;
+}
+
+
+
+.username{
+    display: flex;
+    margin-left: 2.2rem;
+    margin-bottom: -0.6rem;
+    font-style: normal;
+    font-size: 14px;
+    font-family: Söhne, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+}
+
+.profile1{
+    margin-top: -3rem;
+    margin-left: -0.1rem;
+}
+
+.scrollable-container {
+    height: 450px; /* Adjust height as needed */
+    overflow-y: auto;
+  }
+  
+.parent2{
+    /* padding-left: 20rem; */
+    margin-left:21rem;
+    margin-top: -38.6rem;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: Söhne, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.text-token-text-secondary {
+    color: #676767;
+}
+svg.svgA{
+    margin-top: 0.5rem;
+}
+
+
+
+.input-container {
+    margin: 460px auto 0;
+    width: 55vw;
+    margin-left: 28rem;
+}
+
+.input-container input[type="text"] {
+    width: calc(100% - 8px);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: -1rem;
+    padding-right: 39px;
+    border-width: 0.12px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.input-container .arrow {
+    margin-top: -2.5rem;
+    margin-left: 45rem;
+    color: rgb(170, 167, 167); 
+}
+
+.input-container input[type="text"]::placeholder {
+    color: rgb(170, 167, 167); 
+}
+
+.text-white{
+    background-color: #e5e5e5;
+    border-radius: 5px;
+}
+
+.center{
+    margin-top: -28rem;
+    margin-left: 9rem;
+    border-radius: 10px;
+    width: 35vw;
+    height: 15vh;
+    font-family: Söhne, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 600;
+}
+
+.svg-center{
+    margin-left: 13rem;
+}
+
+.text-center{
+    font-weight: 650px;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin-bottom: 1.25rem;
+    margin-left: 6rem;
+}
+
+.parent3{
+    padding-left: 3.25rem;
+    margin-left: 24rem;
+    width: 80vw;
+    height: 24vh;
+    border-radius: 10px;
+    margin-top: -13rem;
+    /* background-color: aqua; */
+}
+
+.child1{
+    /* background-color: red; */
+    width: 28vw;
+    height: 12vh;
+    /* margin-left: 2rem; */
+    border-radius: 10px;
+    /* margin-top: 1rem; */
+    border: 0.21px solid rgba(0, 0, 0, 0.154);
+}
+
+.child-text1{
+    text-align: justify;
+    padding: 1rem 1rem 0.1rem 0.5rem;
+    font-family: Söhne, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 600;
+}
+.child-text1-child{
+    text-align: justify;
+    padding-left: 0.5rem;
+    
+}
+
+.parent4{
+    margin-left: 52rem;
+    padding-right: 3.25rem;
+    width: 66vw;
+    height: 24vh;
+    border-radius: 10px;
+    margin-top: -9.6rem;
+    /* background-color: aqua; */
+ } 
+
+ .child2{
+     /* background-color: red;  */
+    width: 29vw;
+    height: 12vh;
+    border-radius: 10px;
+    border: 0.21px solid rgba(0, 0, 0, 0.154);
+} 
+
+.parent5{
+    margin-left: 52rem;
+    padding-right: 3.25rem;
+    width: 80vw;
+    height: 24vh;
+    border-radius: 10px;
+    margin-top: -4rem;
+    /* background-color: aqua; */
+ } 
+
+ .child3{
+     /* background-color: red;  */
+    width: 29vw;
+    height: 12vh;
+    border-radius: 10px;
+    border: 0.21px solid rgba(0, 0, 0, 0.154);
+} 
+
+.parent6{
+    padding-left: 3.25rem;
+    margin-left: 24rem;
+    width: 60vw;
+    height: 24vh;
+    border-radius: 10px;
+    margin-top: -9.6rem;
+    /* background-color: aqua; */
+}
+
+.child4{
+    /* background-color: red; */
+    width: 28vw;
+    height: 12vh;
+    /* margin-left: 2rem; */
+    border-radius: 10px;
+    /* margin-top: 1rem; */
+    border: 0.21px solid rgba(0, 0, 0, 0.154);
+}
+
+.footer{
+    margin-top: 2rem;
+    margin-left: 20rem;
+    justify-content: center;
+    text-align: center;
+    color: #676767;
+    font-size: 0.85rem;
+    line-height: 1rem;
+}
